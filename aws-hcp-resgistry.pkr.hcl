@@ -9,9 +9,9 @@ packer {
 
 source "amazon-ebs" "ubuntu" {
   profile       = "default"
-  ami_name      = "First-pkr-image-ubuntu"
+  ami_name      = "First-pkr-image-ubuntu-v2"
   instance_type = "t2.micro"
-  source_ami    = "ami-0aa2b7722dc1b5612"
+  source_ami    = "ami-0a695f0d95cefc163"
   region        = "us-east-2"
   ssh_username  = "ubuntu"
 }
